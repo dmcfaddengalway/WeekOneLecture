@@ -2,8 +2,8 @@
 /**
  * Write a description of class Bicycle here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Daniel McFadden (16280010)
+ * @version September 14th, 2017
  */
 public class Bicycle {
     
@@ -12,24 +12,39 @@ public class Bicycle {
     private int gear;
     private int cadence;
 
-    /**
-     * Constructor for objects of class Bicycle
-     */
-    public Bicycle()
-    {
-        // initialise instance variables
-        x = 0;
+    //Constructor
+    public Bicycle(int speed, int gear, int cadence) {
+        this.speed = speed;
+        this.gear = gear;
+        this.cadence = cadence;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+    //Methods
+    
+        //Setters
+        public void setSpeed(int newSpeed) {
+            speed = newSpeed;
+        }
+        
+        public void setGear(int newGear) {
+            gear = newGear;
+        }
+        
+        public void setCadence(int newCadence) {
+            cadence = newCadence;
+        }
+        
+        //Getters
+        public int getSpeed() {
+            return speed;
+        }
+        
+        public int getGear() {
+            return gear;
+        }
+        
+        public int getCadence() {
+            return cadence;
+        }
+    
 }
