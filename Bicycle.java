@@ -5,10 +5,12 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Bicycle extends Runner
-{
-    // instance variables - replace the example below with your own
-    private int x;
+public class Bicycle {
+    
+    //Instance Variables
+    private int speed;
+    private int gear;
+    private int cadence;
 
     /**
      * Constructor for objects of class Bicycle
